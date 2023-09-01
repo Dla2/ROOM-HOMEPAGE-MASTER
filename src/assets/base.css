@@ -1,0 +1,22 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --Dark-Gray: hsl(0, 0%, 63%);
+  --Black: hsl(0, 0%, 0%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 0 auto;
+  font-family: 'League Spartan', sans-serif;
+}
+
